@@ -4,7 +4,7 @@ import SideBar from "./SideBar";
 
 function Body() {
   return (
-    <div className="body">
+    <div className="corpo">
       <div className="esquerda">
         <Stories />
         <Posts />

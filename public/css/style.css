@@ -77,7 +77,8 @@ body {
 .corpo {
   display: flex;
   justify-content: space-between;
-  width: 935px;
+  width: 100%;
+  max-width: 935px;
   margin: 0 auto;
   margin-top: 88px;
 }
@@ -305,3 +306,18 @@ ion-icon {
   color: black;
 }
 
+.usuario button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilo para o botão curtido */
+ion-icon.liked {
+  color: red !important; /* Garante que o ícone fique vermelho */
+}
+
+/* Para garantir que outros estilos não interfiram */
+.liked {
+  color: red !important;
+}

@@ -18,6 +18,14 @@ function Posts() {
       likedByUser: 'adorable_animals',
       likes: 99159,
     },
+    {
+        userImg: 'assets/img/bad.vibes.memes.svg',
+        userName: 'bad.vibes.memes',
+        contentImg: 'assets/img/cat-pensador.jpeg',
+        likedByImg: 'assets/img/nathanwpylestrangeplanet.svg',
+        likedByUser: 'nathanwpylestrangeplanet',
+        likes: 152485,
+    },
   ];
 
   return (
